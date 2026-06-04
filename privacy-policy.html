@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TelsizTR Gizlilik Politikası</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #ffffff;
+      --text: #142033;
+      --muted: #5e6b7a;
+      --line: #e6ebf2;
+      --card: #f8fafc;
+      --link: #0b63ce;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", Inter, Arial, sans-serif;
+      line-height: 1.7;
+    }
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    .top-link {
+      display: inline-block;
+      margin-bottom: 24px;
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      line-height: 1.15;
+      margin: 0 0 12px;
+    }
+    h2 {
+      font-size: clamp(1.2rem, 2.3vw, 1.55rem);
+      margin: 32px 0 12px;
+      line-height: 1.3;
+    }
+    p, li { font-size: 1rem; }
+    p { margin: 0 0 16px; }
+    ul { margin: 0 0 20px 22px; padding: 0; }
+    li { margin: 0 0 8px; }
+    a { color: var(--link); }
+    .meta {
+      color: var(--muted);
+      margin-bottom: 28px;
+      font-size: 0.98rem;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    footer strong { color: var(--text); }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <a class="top-link" href="./index.html">&larr; Yasal metinlere dön</a>
+    <h1>TelsizTR Gizlilik Politikası</h1>
+    <p class="meta">Son güncelleme tarihi: 04.06.2026</p>
+
+    <p>Bu Gizlilik Politikası, TelsizTR mobil uygulamasının kullanıcı verileriyle ilgili yaklaşımını açıklar.</p>
+    <p>TelsizTR; amatör telsizcilere ve amatör telsizcilik sınavına hazırlanan kullanıcılara yönelik sınav hazırlığı, mors kodu, Q kodları, fonetik alfabe, röle rehberi, band planı, logbook, ADIF dışa aktarma ve temel telsiz araçları sunan bir mobil uygulamadır.</p>
+
+    <h2>1. Yayıncı / İletişim</h2>
+    <p>Yayıncı / İletişim: TelsizTR Ekibi<br>E-posta: <a href="mailto:avelixlabs@gmail.com">avelixlabs@gmail.com</a></p>
+
+    <h2>2. Uygulamanın Veri İşleme Yaklaşımı</h2>
+    <p>TelsizTR temel olarak offline-first çalışacak şekilde tasarlanmıştır.</p>
+    <p>Mevcut sürümde kullanıcı hesabı, Google Login, Supabase, Firebase Auth veya bulut senkronizasyonu bulunmamaktadır.</p>
+    <p>Uygulama; sınav soruları, röle rehberi, band planı, Q kodları, fonetik alfabe ve benzeri içerikleri cihaz üzerinde çalıştırır.</p>
+    <p>TelsizTR geliştiricisi; logbook kayıtlarını, sınav geçmişini, favori röleleri veya uygulama içi notları kendi sunucularına otomatik olarak göndermez.</p>
+
+    <h2>3. Uygulama İçinde Cihazda Saklanabilen Veriler</h2>
+    <p>TelsizTR, kullanıcı tarafından girilen bazı bilgileri cihaz üzerinde yerel olarak saklayabilir.</p>
+    <p>Bu veriler şunları içerebilir:</p>
+    <ul>
+      <li>Logbook / QSO kayıtları</li>
+      <li>Çağrı işareti</li>
+      <li>QSO tarihi ve saati</li>
+      <li>Frekans, band ve mod bilgileri</li>
+      <li>RST gönderilen / alınan sinyal raporları</li>
+      <li>QTH / lokasyon notu</li>
+      <li>Grid locator</li>
+      <li>Operatör adı</li>
+      <li>Kullanıcı notları</li>
+      <li>Deneme sınavı geçmişi</li>
+      <li>Favori röle kayıtları</li>
+      <li>Uygulama ayarları</li>
+    </ul>
+    <p>Bu bilgiler mevcut sürümde TelsizTR geliştiricisine ait bir sunucuya otomatik olarak aktarılmaz.</p>
+
+    <h2>4. Verilerin Kullanım Amaçları</h2>
+    <p>Uygulama içi yerel veriler şu amaçlarla kullanılabilir:</p>
+    <ul>
+      <li>Logbook kayıtlarının tutulması</li>
+      <li>QSO geçmişinin görüntülenmesi</li>
+      <li>ADIF formatında dışa aktarma yapılması</li>
+      <li>Deneme sınavı geçmişinin gösterilmesi</li>
+      <li>Favori rölelerin saklanması</li>
+      <li>Uygulama ayarlarının korunması</li>
+      <li>Uygulamanın offline özelliklerinin çalıştırılması</li>
+    </ul>
+
+    <h2>5. ADIF Dışa Aktarma</h2>
+    <p>TelsizTR, kullanıcının logbook kayıtlarını ADIF formatında dışa aktarmasına izin verebilir.</p>
+    <p>ADIF dosyasının oluşturulması ve paylaşılması kullanıcının kendi isteğiyle gerçekleşir. Kullanıcı bu dosyayı eQSL, LoTW, QRZ.com, Cloudlog veya başka platformlara kendisi aktarabilir.</p>
+    <p>TelsizTR, kullanıcı açıkça paylaşım işlemi yapmadıkça ADIF dosyasını üçüncü taraflara otomatik olarak göndermez.</p>
+
+    <h2>6. Reklam ve Google AdMob</h2>
+    <p>TelsizTR uygulamasında reklam gösterimi için Google AdMob kullanılabilir.</p>
+    <p>Google AdMob, reklamların gösterilmesi, reklam performansının ölçülmesi, kötüye kullanımın önlenmesi ve reklam hizmetlerinin sağlanması amacıyla cihaz, reklam kimliği, yaklaşık konum, uygulama etkileşimleri veya benzeri bazı verileri işleyebilir.</p>
+    <p>Bu verilerin işlenmesi Google’ın kendi politikalarına ve Google Mobile Ads SDK davranışına tabidir.</p>
+    <p>TelsizTR, reklam hizmetleri kapsamında işlenen verileri doğrudan satmaz.</p>
+
+    <h2>7. Üçüncü Taraflarla Paylaşım</h2>
+    <p>TelsizTR mevcut sürümde logbook kayıtlarınızı, sınav geçmişinizi veya favorilerinizi geliştirici sunucularına otomatik olarak göndermez.</p>
+    <p>Ancak aşağıdaki durumlarda üçüncü taraf hizmetler devreye girebilir:</p>
+    <ul>
+      <li>Google AdMob ile reklam gösterimi</li>
+      <li>Kullanıcının ADIF dosyasını kendi isteğiyle paylaşması</li>
+      <li>Kullanıcının cihazındaki paylaşım menüsü üzerinden başka uygulamalara veri göndermesi</li>
+    </ul>
+    <p>Bu işlemler dışında, kullanıcı verileri ticari olarak satılmaz.</p>
+
+    <h2>8. Konum Verisi</h2>
+    <p>TelsizTR mevcut sürümde cihazın GPS konumunu zorunlu olarak toplamaz.</p>
+    <p>Kullanıcı QTH, şehir veya grid locator gibi bilgileri logbook kaydına manuel olarak ekleyebilir. Bu bilgiler cihazda yerel olarak saklanır.</p>
+    <p>İleride konum tabanlı özellikler eklenirse kullanıcıdan ayrıca izin istenir ve bu politika güncellenir.</p>
+
+    <h2>9. 13 Yaş Altı Kullanıcılar</h2>
+    <p>TelsizTR, özellikle 13 yaş altı çocuklara yönelik olarak tasarlanmış bir uygulama değildir.</p>
+    <p>Uygulama, 13 yaş altı çocuklardan bilerek kişisel veri toplamayı amaçlamaz.</p>
+    <p>13 yaş altındaki kullanıcıların uygulamayı bir ebeveyn veya yasal vasinin gözetiminde kullanması önerilir.</p>
+    <p>13 yaş altı kullanıcıların logbook, not, QTH, grid locator veya benzeri alanlara kişisel veri girmemesi gerekir.</p>
+    <p>Bir ebeveyn veya yasal vasi, çocuğa ait kişisel verinin uygulamada yer aldığını düşünüyorsa <a href="mailto:avelixlabs@gmail.com">avelixlabs@gmail.com</a> adresinden iletişime geçebilir.</p>
+
+    <h2>10. Kaynak Veriler ve Güncellik</h2>
+    <p>TelsizTR içinde yer alan röle, band planı, sınav soruları, Q kodları ve benzeri bilgiler çeşitli kamuya açık kaynaklardan, amatör telsizcilik kaynaklarından veya ilgili dokümanlardan derlenmiş olabilir.</p>
+    <p>Bu bilgiler bilgilendirme ve eğitim amacıyla sunulur.</p>
+    <p>Frekans, röle, band planı ve mevzuat bilgileri zaman içinde değişebilir. Güncel ve resmi bilgi için ilgili kaynaklar ve resmi kurum açıklamaları kontrol edilmelidir.</p>
+
+    <h2>11. Veri Güvenliği</h2>
+    <p>TelsizTR, kullanıcı verilerini mümkün olduğunca cihaz üzerinde ve offline tutacak şekilde tasarlanmıştır.</p>
+    <p>Ancak hiçbir dijital sistemin tamamen risksiz olmadığı unutulmamalıdır. Kullanıcılar ADIF dosyalarını veya logbook kayıtlarını üçüncü taraf platformlarla paylaşırken dikkatli olmalıdır.</p>
+
+    <h2>12. Verilerin Silinmesi</h2>
+    <p>Kullanıcı uygulama içindeki logbook kayıtlarını, sınav geçmişini veya favori kayıtlarını silebilir.</p>
+    <p>Uygulamanın cihazdan kaldırılması, cihaz üzerinde tutulan yerel verilerin silinmesine neden olabilir.</p>
+
+    <h2>13. Değişiklikler</h2>
+    <p>Bu Gizlilik Politikası zaman zaman güncellenebilir.</p>
+    <p>Yeni özellikler, reklam, hesap sistemi, bulut senkronizasyonu veya farklı üçüncü taraf hizmetler eklendiğinde bu politika güncellenecektir.</p>
+
+    <h2>14. İletişim</h2>
+    <p>Gizlilik politikası, veri talepleri, düzeltme veya kaldırma istekleri için:</p>
+    <p>E-posta: <a href="mailto:avelixlabs@gmail.com">avelixlabs@gmail.com</a></p>
+
+    <footer>
+      <strong>Yayıncı / İletişim:</strong><br>
+      TelsizTR Ekibi<br>
+      <a href="mailto:avelixlabs@gmail.com">avelixlabs@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
