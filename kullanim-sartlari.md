@@ -1,110 +1,146 @@
-# TelsizTR Kullanım Şartları ve Sorumluluk Reddi
+# TelsizTR Kullanım Şartları
 
-Son güncelleme tarihi: 04.06.2026
+**Son güncelleme:** 12 Haziran 2026
 
-TelsizTR uygulamasını kullanarak aşağıdaki kullanım şartlarını kabul etmiş sayılırsınız.
+Bu Kullanım Şartları, TelsizTR mobil uygulamasının kullanım koşullarını açıklar. Uygulamayı indirerek, yükleyerek veya kullanarak bu şartları kabul etmiş sayılırsınız.
+
+Bu şartları kabul etmiyorsanız uygulamayı kullanmamalısınız.
 
 ## 1. Uygulamanın Amacı
 
-TelsizTR; amatör telsizcilere ve amatör telsizcilik sınavına hazırlanan kullanıcılara yönelik eğitim, pratik ve yardımcı araçlar sunan bir mobil uygulamadır.
+TelsizTR; amatör telsizcilik sınavına hazırlık, Q kodları, fonetik alfabe, band planları, mors araçları, terimler ve benzeri eğitim/referans içerikleri sunmak amacıyla geliştirilmiş bağımsız bir mobil uygulamadır.
 
-Uygulama içinde şunlar yer alabilir:
+Uygulama, amatör telsizcilikle ilgilenen kişilere pratik bilgi, çalışma aracı ve saha referansı sağlamayı amaçlar.
 
-* Sınav hazırlık soruları
-* A/B sınıfı deneme sınavı
-* Mors kodu çevirici ve öğrenme araçları
-* Q kodları
-* Fonetik alfabe
-* Terimler sözlüğü
-* Röle rehberi
-* Röle haritası
-* Band planı
-* Logbook / QSO defteri
-* ADIF dışa aktarma
-* Temel amatör telsiz araçları
+## 2. Resmi Kurum Bağlantısı Yoktur
 
-## 2. Resmi Kaynak Değildir
+TelsizTR resmi bir kamu kurumu uygulaması değildir.
 
-TelsizTR resmi bir kurum uygulaması değildir.
+TelsizTR; Kıyı Emniyeti Genel Müdürlüğü (KEGM), Bilgi Teknolojileri ve İletişim Kurumu (BTK), Ulaştırma ve Altyapı Bakanlığı veya herhangi bir kamu kurumu tarafından geliştirilmiş, onaylanmış, desteklenmiş ya da temsil edilmiş değildir.
 
-Uygulamadaki sınav, röle, frekans, band planı ve mevzuat bilgileri bilgilendirme ve eğitim amacıyla sunulur.
+Uygulamada yer alan sınav, mevzuat, band planı, röle, terim ve benzeri içerikler eğitim ve referans amacıyla sunulur.
 
-Güncel ve bağlayıcı bilgiler için BTK, ilgili resmi kurumlar ve kaynak gösterilen güncel amatör telsizcilik kaynakları kontrol edilmelidir.
+Kullanıcılar resmi, güncel ve bağlayıcı bilgi için ilgili kamu kurumlarının resmi duyurularını ve kaynaklarını kontrol etmelidir.
 
-## 3. Frekans, Röle ve Band Planı Bilgileri
+## 3. İçeriklerin Doğruluğu ve Güncelliği
 
-Röle frekansları, CTCSS ton bilgileri, shift değerleri, band planları ve kullanım kısıtlamaları zaman içinde değişebilir.
+TelsizTR, içerikleri doğru ve güncel tutmak için makul çaba gösterir.
 
-TelsizTR, bu bilgilerin her zaman güncel, eksiksiz veya hatasız olduğunu garanti etmez.
+Ancak amatör telsizcilik sınav yapısı, soru havuzu, mevzuat, frekans planları, röle bilgileri ve diğer teknik bilgiler zaman içinde değişebilir.
 
-Kullanıcı; telsiz kullanımı sırasında yürürlükteki mevzuata, lisans sınıfına, izin verilen güç/frekans sınırlarına ve amatör telsizcilik kurallarına uymakla sorumludur.
+Bu nedenle TelsizTR:
 
-## 4. Sınav Soruları
+* İçeriklerin her zaman hatasız olduğunu garanti etmez.
+* İçeriklerin her zaman en güncel resmi bilgi olduğunu garanti etmez.
+* Uygulamadaki bilgilere dayanılarak alınan kararlar nedeniyle doğabilecek sonuçlardan sorumlu tutulamaz.
 
-Uygulamadaki sınav soruları eğitim ve pratik amaçlıdır.
+Kullanıcı, özellikle sınav başvuruları, sınav tarihleri, sınav kapsamı, belge işlemleri ve mevzuat konularında resmi kaynakları kontrol etmekle sorumludur.
 
-Soru bankası mümkün olduğunca doğru tutulmaya çalışılsa da hatalı, eski veya yorum gerektiren sorular bulunabilir.
+## 4. Sınav Hazırlık İçerikleri
 
-TelsizTR resmi sınav başarısını garanti etmez.
+TelsizTR’de yer alan sınav hazırlık içerikleri eğitim amacıyla sunulur.
 
-## 5. Logbook ve ADIF Dışa Aktarma
+Uygulama, sınav başarısını garanti etmez. Kullanıcının sınav performansı; çalışma süresi, bilgi seviyesi, resmi sınav içeriği ve diğer faktörlere bağlıdır.
 
-Kullanıcı tarafından girilen logbook kayıtları kullanıcının sorumluluğundadır.
+Uygulamadaki soru, açıklama ve çalışma araçları resmi sınav belgesi veya resmi kurum duyurusu yerine geçmez.
 
-ADIF dışa aktarma özelliği, kayıtların başka platformlara taşınabilmesi için sunulur. Kullanıcı, dışa aktardığı dosyaları hangi platformlarla paylaşacağını kendisi belirler.
+Uygulama içerisinde yer alan amatör telsizcilik sınav soruları ve ilgili çalışma materyalleri kamuya açık kaynaklardan derlenmiş olabilir. Bu içeriklere ait tüm mülkiyet hakları ilgili resmi kurumlara veya hak sahiplerine aittir.
 
-TelsizTR, kullanıcının dışa aktardığı verilerin üçüncü taraf platformlarda nasıl işlendiğinden sorumlu değildir.
+## 5. Uygulama İçi Satın Alma
+
+TelsizTR içinde “Reklamları Kaldır” gibi tek seferlik dijital ürünler sunulabilir.
+
+Bu satın alma işlemleri Google Play üzerinden gerçekleştirilir ve Google Play ödeme altyapısına tabidir.
+
+“Reklamları Kaldır” satın alımı, uygun olduğu ölçüde uygulama içindeki reklamların kaldırılmasını sağlar. Google Play, sistem mesajları, mağaza içerikleri veya üçüncü taraf alanlar TelsizTR geliştiricisinin kontrolü dışında olabilir.
+
+Ödeme, faturalandırma, iptal ve iade süreçleri Google Play kurallarına göre yürütülür.
+
+TelsizTR geliştiricisi, kullanıcının tam ödeme kartı bilgilerine erişmez.
 
 ## 6. Reklamlar
 
-TelsizTR uygulamasında reklam gösterilebilir.
+TelsizTR ücretsiz olarak sunulabilir ve uygulama içinde reklam gösterilebilir.
 
-Reklamlar üçüncü taraf reklam sağlayıcılar tarafından sunulabilir. Reklam sağlayıcıların veri işleme faaliyetleri kendi politikalarına tabi olabilir.
+Reklam gösterimi için Google AdMob veya benzeri reklam servisleri kullanılabilir.
 
-## 7. 13 Yaş Altı Kullanıcılar
+Reklam içerikleri, reklam sağlayıcıların sistemleri tarafından belirlenebilir. TelsizTR, üçüncü taraf reklamların içeriğini her zaman doğrudan kontrol edemeyebilir.
 
-TelsizTR özellikle 13 yaş altı çocuklara yönelik değildir.
+Kullanıcının reklam ve gizlilik tercihleri, cihaz ayarları, Google hesap ayarları ve uygulama içinde sunulan onay/gizlilik seçenekleri üzerinden yönetilebilir.
 
-13 yaş altındaki kullanıcıların uygulamayı ebeveyn veya yasal vasi gözetiminde kullanması önerilir.
+## 7. Kullanıcı Verileri ve Gizlilik
 
-13 yaş altındaki kullanıcılar logbook, not, QTH, grid locator, operatör adı veya kişisel veri içerebilecek alanlara bilgi girmemelidir.
+Uygulamanın veri işleme süreçleri Gizlilik Politikası ve KVKK Aydınlatma Metni’nde açıklanmıştır.
+
+TelsizTR kullanıcı hesabı oluşturmaz ve geliştiriciye ait bir sunucuda kullanıcı profili tutmaz.
+
+Bazı teknik veriler; reklam, satın alma, hata analizi ve uygulama performansı amacıyla üçüncü taraf servisler tarafından işlenebilir.
 
 ## 8. Kullanıcının Sorumlulukları
 
-Kullanıcı:
+Kullanıcı, uygulamayı kullanırken aşağıdaki kurallara uymayı kabul eder:
 
-* Mevzuata uygun telsiz kullanımı yapmayı
-* Lisans sınıfına uygun frekans ve güç sınırlarına uymayı
-* Uygulamadaki bilgileri kritik durumlarda tek kaynak olarak kullanmamayı
-* Hatalı veri fark ederse geliştiriciye bildirmeyi
-* Başkalarının kişisel verilerini hukuka aykırı şekilde işlememeyi
-* Logbook kayıtlarını doğru ve hukuka uygun şekilde tutmayı
+* Uygulamayı hukuka aykırı amaçlarla kullanmamak
+* Uygulamayı tersine mühendislik, izinsiz kopyalama veya kötüye kullanım amacıyla kullanmamak
+* Uygulamanın güvenliğini veya çalışma düzenini bozacak işlemler yapmamak
+* Uygulamadaki içerikleri yanıltıcı şekilde resmi kurum içeriği gibi göstermemek
+* Uygulama içi satın alma sistemini kötüye kullanmamak
+* Diğer kullanıcıların veya geliştiricinin haklarını ihlal etmemek
 
-kabul eder.
+## 9. Fikri Mülkiyet Hakları
 
-## 9. Üçüncü Taraf Kaynaklar
+TelsizTR uygulamasının tasarımı, yazılımı, marka unsurları, özgün içerikleri ve arayüz bileşenleri ilgili mevzuat kapsamında korunabilir.
 
-Uygulamadaki bazı bilgiler üçüncü taraf kaynaklardan veya kamuya açık amatör telsizcilik kaynaklarından derlenmiş olabilir.
+Uygulama içinde yer alan amatör telsizcilik sınav soruları, soru havuzu, mevzuat alıntıları, band planı bilgileri veya benzeri kamuya açık kaynaklardan derlenmiş içeriklere ait haklar ilgili resmi kurumlara veya hak sahiplerine aittir.
 
-Kaynaklar uygulama içinde veya ilgili bilgi ekranlarında gösterilebilir.
+TelsizTR, bu tür içerikleri eğitim ve referans amacıyla sunar; ilgili resmi kurumların yerine geçmez ve bu kurumlar adına hareket etmez.
 
-Kaynak sahiplerinden gelen düzeltme veya kaldırma talepleri değerlendirilecektir.
+TelsizTR adı, logosu, tasarımı ve özgün içerikleri izinsiz şekilde kopyalanamaz, dağıtılamaz veya ticari amaçla kullanılamaz.
 
-## 10. Sorumluluk Reddi
+## 10. Hizmette Değişiklik ve Güncelleme
 
-TelsizTR; frekans, röle, band planı, sınav sorusu, logbook veya diğer içeriklerdeki hata, eksiklik, güncellik problemi ya da kullanıcının uygulamayı yanlış kullanmasından doğabilecek sonuçlardan sorumlu tutulamaz.
+TelsizTR geliştiricisi, uygulamanın özelliklerini, içeriklerini, tasarımını, reklam yapısını veya satın alma seçeneklerini zaman zaman değiştirebilir.
 
-Uygulama “olduğu gibi” sunulur.
+Bazı özellikler kaldırılabilir, değiştirilebilir veya yeni özellikler eklenebilir.
 
-## 11. Değişiklikler
+Uygulamanın kesintisiz, hatasız veya her cihazda sorunsuz çalışacağı garanti edilmez.
+
+## 11. Sorumluluğun Sınırlandırılması
+
+TelsizTR eğitim ve referans amacıyla sunulur.
+
+Uygulamadaki bilgiler kullanılarak yapılan sınav hazırlığı, telsiz kullanımı, frekans seçimi, belge işlemleri veya diğer faaliyetlerden doğabilecek sonuçlar kullanıcının kendi sorumluluğundadır.
+
+TelsizTR geliştiricisi; içerik hataları, güncellik sorunları, teknik arızalar, veri kaybı, üçüncü taraf servis kesintileri, reklam içerikleri veya kullanıcı kararlarından doğabilecek dolaylı zararlardan sorumlu tutulamaz.
+
+## 12. Üçüncü Taraf Servisler
+
+TelsizTR, uygulamanın çalışması için üçüncü taraf servisler kullanabilir.
+
+Bunlara örnek olarak:
+
+* Google Play Hizmetleri
+* Google AdMob
+* Google Play Billing
+
+Bu servislerin kendi kullanım şartları ve gizlilik politikaları geçerlidir.
+
+## 13. 18 Yaş Altı Kullanıcılar
+
+TelsizTR genel kullanıcı kitlesine yönelik bir eğitim ve referans uygulamasıdır.
+
+18 yaşın altındaki kullanıcıların uygulamayı veli veya yasal temsilci bilgisi ve rehberliğiyle kullanması önerilir.
+
+## 14. Şartların Değiştirilmesi
 
 Bu Kullanım Şartları zaman zaman güncellenebilir.
 
-Güncel metin uygulama içinde veya geliştiricinin belirttiği bağlantı üzerinden yayımlanır.
+Güncel şartlar uygulama içinde veya TelsizTR’nin yasal bilgilendirme sayfalarında yayımlanır.
 
-## 12. İletişim
+Uygulamayı kullanmaya devam etmeniz, güncel şartları kabul ettiğiniz anlamına gelir.
 
-Hata bildirimi, veri düzeltme, kaynak gösterimi, kaldırma talebi veya diğer konular için:
+## 15. İletişim
 
-E-posta: [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
+Kullanım şartlarıyla ilgili sorularınız için bizimle iletişime geçebilirsiniz:
 
+**E-posta:** [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
