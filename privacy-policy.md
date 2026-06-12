@@ -1,138 +1,155 @@
 # TelsizTR Gizlilik Politikası
 
-Son güncelleme tarihi: 04.06.2026
+**Son güncelleme:** 12 Haziran 2026
 
-Bu Gizlilik Politikası, TelsizTR mobil uygulamasının kullanıcı verileriyle ilgili yaklaşımını açıklar.
+Bu Gizlilik Politikası, TelsizTR mobil uygulamasının kullanıcı verilerini nasıl işlediğini açıklamak amacıyla hazırlanmıştır.
 
-TelsizTR; amatör telsizcilere ve amatör telsizcilik sınavına hazırlanan kullanıcılara yönelik sınav hazırlığı, mors kodu, Q kodları, fonetik alfabe, röle rehberi, band planı, logbook, ADIF dışa aktarma ve temel telsiz araçları sunan bir mobil uygulamadır.
+TelsizTR; amatör telsiz sınavına hazırlık, Q kodları, fonetik alfabe, band planları, mors araçları, terimler ve benzeri eğitim/referans içerikleri sunan bağımsız bir mobil uygulamadır.
 
-## 1. Yayıncı / İletişim
+TelsizTR; Kıyı Emniyeti Genel Müdürlüğü (KEGM), Bilgi Teknolojileri ve İletişim Kurumu (BTK), Ulaştırma ve Altyapı Bakanlığı veya herhangi bir kamu kurumu tarafından geliştirilmiş, onaylanmış ya da desteklenmiş resmi bir uygulama değildir.
 
-Yayıncı / İletişim: TelsizTR Ekibi
-E-posta: [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
+## 1. Veri Sorumlusu ve İletişim
 
-## 2. Uygulamanın Veri İşleme Yaklaşımı
+TelsizTR uygulamasında veri sorumlusu:
 
-TelsizTR temel olarak offline-first çalışacak şekilde tasarlanmıştır.
+**Marka / Yayıncı adı:** TelsizTR / Avelix Labs  
+**İletişim:** [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
 
-Mevcut sürümde kullanıcı hesabı, Google Login, Supabase, Firebase Auth veya bulut senkronizasyonu bulunmamaktadır.
+## 2. Toplanan ve İşlenen Veriler
 
-Uygulama; sınav soruları, röle rehberi, band planı, Q kodları, fonetik alfabe ve benzeri içerikleri cihaz üzerinde çalıştırır.
+TelsizTR, kullanıcı hesabı oluşturmaz ve geliştiriciye ait bir sunucuya kullanıcı profili göndermez.
 
-TelsizTR geliştiricisi; logbook kayıtlarını, sınav geçmişini, favori röleleri veya uygulama içi notları kendi sunucularına otomatik olarak göndermez.
+Uygulama doğrudan kullanıcıdan şu bilgileri talep etmez ve geliştirici sunucusuna göndermez:
 
-## 3. Uygulama İçinde Cihazda Saklanabilen Veriler
+* Ad ve soyad
+* E-posta adresi
+* Telefon numarası
+* Kimlik bilgisi
+* Açık adres
+* Rehber bilgileri
+* Fotoğraf ve video
+* Ses kayıtları
+* Dosyalar
+* Mesajlar
+* Sağlık verileri
+* Özel nitelikli kişisel veriler
 
-TelsizTR, kullanıcı tarafından girilen bazı bilgileri cihaz üzerinde yerel olarak saklayabilir.
+Ancak uygulamada kullanılan üçüncü taraf servisler nedeniyle bazı teknik veriler işlenebilir.
 
-Bu veriler şunları içerebilir:
+## 3. Üçüncü Taraf Servisler Tarafından İşlenebilecek Veriler
 
-* Logbook / QSO kayıtları
-* Çağrı işareti
-* QSO tarihi ve saati
-* Frekans, band ve mod bilgileri
-* RST gönderilen / alınan sinyal raporları
-* QTH / lokasyon notu
-* Grid locator
-* Operatör adı
-* Kullanıcı notları
-* Deneme sınavı geçmişi
-* Favori röle kayıtları
+TelsizTR’de reklam gösterimi ve uygulama içi satın alma işlemleri için Google servisleri kullanılabilir.
+
+### Google AdMob
+
+TelsizTR içinde reklam gösterimi için Google AdMob kullanılabilir.
+
+Google AdMob tarafından reklam gösterimi, reklam ölçümü, reklam güvenliği ve analiz amaçlarıyla aşağıdaki veri türleri işlenebilir:
+
+* Yaklaşık konum
+* Cihaz veya diğer kimlikler
+* Reklam kimliği
+* Uygulama etkileşimleri
+* Çökme kayıtları
+* Tanılama verileri
+
+Reklam kişiselleştirme ve reklam teknolojileri, kullanıcının cihaz ayarlarına, Google hesap ayarlarına ve uygulama içinde sunulan gizlilik tercihleri/onay ekranlarına bağlı olarak yönetilebilir.
+
+Uygulama, gerekli olduğu durumlarda reklam ve gizlilik tercihleri için Google User Messaging Platform veya benzeri bir onay yönetim mekanizması kullanabilir.
+
+### Google Play Billing
+
+TelsizTR içinde “Reklamları Kaldır” adlı tek seferlik uygulama içi satın alma seçeneği bulunabilir.
+
+Bu satın alma işlemleri Google Play Billing altyapısı üzerinden gerçekleştirilir. Satın alma işlemleri kapsamında satın alma geçmişi ve işlem doğrulama bilgileri Google Play tarafından işlenebilir.
+
+TelsizTR geliştiricisi, kullanıcıların tam ödeme kartı bilgilerine erişmez.
+
+## 4. Cihazda Yerel Olarak Saklanan Veriler
+
+TelsizTR bazı verileri yalnızca kullanıcının cihazında yerel olarak saklayabilir.
+
+Bunlara örnek olarak:
+
 * Uygulama ayarları
+* Tema tercihleri
+* Sınav ilerlemesi
+* Çözülmüş sorular
+* Favoriler
+* Çağrı işareti gibi kullanıcı tarafından girilen yerel bilgiler
+* Reklamları kaldırma durumunun uygulama içinde hatırlanması
 
-Bu bilgiler mevcut sürümde TelsizTR geliştiricisine ait bir sunucuya otomatik olarak aktarılmaz.
+Bu veriler geliştiriciye ait bir sunucuya gönderilmez. Kullanıcı, cihaz ayarlarından uygulama verilerini temizleyerek veya uygulamayı kaldırarak bu yerel verileri silebilir.
 
-## 4. Verilerin Kullanım Amaçları
+## 5. Verilerin Kullanım Amaçları
 
-Uygulama içi yerel veriler şu amaçlarla kullanılabilir:
+İşlenen veriler aşağıdaki amaçlarla kullanılabilir:
 
-* Logbook kayıtlarının tutulması
-* QSO geçmişinin görüntülenmesi
-* ADIF formatında dışa aktarma yapılması
-* Deneme sınavı geçmişinin gösterilmesi
-* Favori rölelerin saklanması
-* Uygulama ayarlarının korunması
-* Uygulamanın offline özelliklerinin çalıştırılması
+* Uygulamanın temel özelliklerini çalıştırmak
+* Reklam göstermek
+* Reklam performansını ölçmek
+* Uygulama içi satın alma işlemlerini gerçekleştirmek
+* Reklamları kaldırma satın alımını doğrulamak
+* Hataları ve çökme kayıtlarını analiz etmek
+* Uygulama performansını ve kararlılığını iyileştirmek
+* Güvenlik ve kötüye kullanım önlemlerini desteklemek
 
-## 5. ADIF Dışa Aktarma
+## 6. Veri Paylaşımı
 
-TelsizTR, kullanıcının logbook kayıtlarını ADIF formatında dışa aktarmasına izin verebilir.
+TelsizTR geliştiricisi; kullanıcıların ad, e-posta, telefon, kimlik, fotoğraf veya dosya gibi kişisel verilerini kendi sunucusunda toplamaz ve üçüncü kişilere satmaz.
 
-ADIF dosyasının oluşturulması ve paylaşılması kullanıcının kendi isteğiyle gerçekleşir. Kullanıcı bu dosyayı eQSL, LoTW, QRZ.com, Cloudlog veya başka platformlara kendisi aktarabilir.
+Ancak uygulama içinde kullanılan üçüncü taraf servisler nedeniyle bazı teknik veriler Google servisleriyle işlenebilir veya paylaşılabilir.
 
-TelsizTR, kullanıcı açıkça paylaşım işlemi yapmadıkça ADIF dosyasını üçüncü taraflara otomatik olarak göndermez.
+Bu servisler şunlardır:
 
-## 6. Reklam ve Google AdMob
+* Google AdMob
+* Google Play Billing
+* Google Play Hizmetleri
 
-TelsizTR uygulamasında reklam gösterimi için Google AdMob kullanılabilir.
+Bu servislerin veri işleme süreçleri kendi gizlilik politikalarına ve hizmet şartlarına tabidir.
 
-Google AdMob, reklamların gösterilmesi, reklam performansının ölçülmesi, kötüye kullanımın önlenmesi ve reklam hizmetlerinin sağlanması amacıyla cihaz, reklam kimliği, yaklaşık konum, uygulama etkileşimleri veya benzeri bazı verileri işleyebilir.
+## 7. Verilerin Güvenliği
 
-Bu verilerin işlenmesi Google’ın kendi politikalarına ve Google Mobile Ads SDK davranışına tabidir.
+Uygulama tarafından kullanılan üçüncü taraf servislerle yapılan veri iletimleri güvenli bağlantılar üzerinden gerçekleştirilir.
 
-TelsizTR, reklam hizmetleri kapsamında işlenen verileri doğrudan satmaz.
+Bununla birlikte, internet üzerinden yapılan hiçbir veri aktarımının mutlak güvenli olduğu garanti edilemez. TelsizTR, makul teknik ve idari önlemlerle kullanıcı gizliliğini korumaya çalışır.
 
-## 7. Üçüncü Taraflarla Paylaşım
+## 8. Veri Saklama ve Silme
 
-TelsizTR mevcut sürümde logbook kayıtlarınızı, sınav geçmişinizi veya favorilerinizi geliştirici sunucularına otomatik olarak göndermez.
+TelsizTR geliştiricisi, kullanıcı hesabı veya kullanıcı profili tutmadığı için geliştirici sunucusunda saklanan bir kullanıcı hesap verisi bulunmaz.
 
-Ancak aşağıdaki durumlarda üçüncü taraf hizmetler devreye girebilir:
+Cihazda yerel olarak saklanan veriler, kullanıcı uygulama verilerini temizleyene veya uygulamayı kaldırana kadar cihazda kalabilir.
 
-* Google AdMob ile reklam gösterimi
-* Kullanıcının ADIF dosyasını kendi isteğiyle paylaşması
-* Kullanıcının cihazındaki paylaşım menüsü üzerinden başka uygulamalara veri göndermesi
+Kullanıcılar cihazlarında saklanan yerel verileri şu yöntemlerle silebilir:
 
-Bu işlemler dışında, kullanıcı verileri ticari olarak satılmaz.
+* Uygulamayı kaldırarak
+* Android ayarlarından TelsizTR uygulama verilerini temizleyerek
+* Uygulama içinde sunulan ilgili temizleme seçenekleri varsa bunları kullanarak
 
-## 8. Konum Verisi
+Google Play satın alma geçmişi ve reklam sistemleriyle ilgili veriler Google servisleri tarafından yönetilir.
 
-TelsizTR mevcut sürümde cihazın GPS konumunu zorunlu olarak toplamaz.
+## 9. Çocukların Gizliliği
 
-Kullanıcı QTH, şehir veya grid locator gibi bilgileri logbook kaydına manuel olarak ekleyebilir. Bu bilgiler cihazda yerel olarak saklanır.
+TelsizTR genel kullanıcı kitlesine yönelik bir eğitim ve referans uygulamasıdır.
 
-İleride konum tabanlı özellikler eklenirse kullanıcıdan ayrıca izin istenir ve bu politika güncellenir.
+Uygulama çocuklardan bilerek ad, soyad, e-posta, telefon, kimlik bilgisi veya benzeri kişisel bilgiler toplamaz.
 
-## 9. 13 Yaş Altı Kullanıcılar
+18 yaşın altındaki kullanıcıların uygulamayı veli veya yasal temsilci bilgisi ve rehberliğiyle kullanması önerilir.
 
-TelsizTR, özellikle 13 yaş altı çocuklara yönelik olarak tasarlanmış bir uygulama değildir.
+## 10. Resmi Kurum Bağlantısı Yoktur
 
-Uygulama, 13 yaş altı çocuklardan bilerek kişisel veri toplamayı amaçlamaz.
+TelsizTR resmi bir kamu kurumu uygulaması değildir.
 
-13 yaş altındaki kullanıcıların uygulamayı bir ebeveyn veya yasal vasinin gözetiminde kullanması önerilir.
+TelsizTR; KEGM, BTK, Ulaştırma ve Altyapı Bakanlığı veya başka bir kamu kurumu adına geliştirilmemiştir. Uygulamadaki sınav, mevzuat, band planı ve diğer bilgiler eğitim ve referans amacıyla sunulur.
 
-13 yaş altı kullanıcıların logbook, not, QTH, grid locator veya benzeri alanlara kişisel veri girmemesi gerekir.
+Kullanıcılar resmi ve güncel bilgiler için ilgili kamu kurumlarının duyurularını ve resmi kaynaklarını kontrol etmelidir.
 
-Bir ebeveyn veya yasal vasi, çocuğa ait kişisel verinin uygulamada yer aldığını düşünüyorsa [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com) adresinden iletişime geçebilir.
+## 11. Değişiklikler
 
-## 10. Kaynak Veriler ve Güncellik
+Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncel metin uygulama içinde veya TelsizTR’nin yasal bilgilendirme sayfalarında yayımlanır.
 
-TelsizTR içinde yer alan röle, band planı, sınav soruları, Q kodları ve benzeri bilgiler çeşitli kamuya açık kaynaklardan, amatör telsizcilik kaynaklarından veya ilgili dokümanlardan derlenmiş olabilir.
+## 12. İletişim
 
-Bu bilgiler bilgilendirme ve eğitim amacıyla sunulur.
+Gizlilik politikasıyla ilgili sorularınız için bizimle iletişime geçebilirsiniz:
 
-Frekans, röle, band planı ve mevzuat bilgileri zaman içinde değişebilir. Güncel ve resmi bilgi için ilgili kaynaklar ve resmi kurum açıklamaları kontrol edilmelidir.
-
-## 11. Veri Güvenliği
-
-TelsizTR, kullanıcı verilerini mümkün olduğunca cihaz üzerinde ve offline tutacak şekilde tasarlanmıştır.
-
-Ancak hiçbir dijital sistemin tamamen risksiz olmadığı unutulmamalıdır. Kullanıcılar ADIF dosyalarını veya logbook kayıtlarını üçüncü taraf platformlarla paylaşırken dikkatli olmalıdır.
-
-## 12. Verilerin Silinmesi
-
-Kullanıcı uygulama içindeki logbook kayıtlarını, sınav geçmişini veya favori kayıtlarını silebilir.
-
-Uygulamanın cihazdan kaldırılması, cihaz üzerinde tutulan yerel verilerin silinmesine neden olabilir.
-
-## 13. Değişiklikler
-
-Bu Gizlilik Politikası zaman zaman güncellenebilir.
-
-Yeni özellikler, reklam, hesap sistemi, bulut senkronizasyonu veya farklı üçüncü taraf hizmetler eklendiğinde bu politika güncellenecektir.
-
-## 14. İletişim
-
-Gizlilik politikası, veri talepleri, düzeltme veya kaldırma istekleri için:
-
-E-posta: [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
-
+**E-posta:** [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
