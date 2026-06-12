@@ -1,125 +1,169 @@
 # TelsizTR KVKK Aydınlatma Metni
 
-Son güncelleme tarihi: 04.06.2026
+**Son güncelleme:** 12 Haziran 2026
 
-Bu Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında TelsizTR mobil uygulamasını kullanan kişilerin kişisel verileriyle ilgili bilgilendirme amacıyla hazırlanmıştır.
+Bu Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında TelsizTR mobil uygulamasında kişisel verilerin nasıl işlendiği hakkında kullanıcıları bilgilendirmek amacıyla hazırlanmıştır.
 
-## 1. Yayıncı / İletişim
+## 1. Veri Sorumlusu
 
-Yayıncı / İletişim: TelsizTR Ekibi
-E-posta: [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
+TelsizTR uygulamasında veri sorumlusu:
+
+**Marka / Yayıncı adı:** TelsizTR / Avelix Labs  
+**İletişim:** [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
 
 ## 2. Uygulamanın Niteliği
 
-TelsizTR; amatör telsizcilere yönelik sınav hazırlığı, mors kodu, Q kodları, fonetik alfabe, röle rehberi, band planı, logbook ve ADIF dışa aktarma gibi özellikler sunan bir mobil yardımcı uygulamadır.
+TelsizTR; amatör telsiz sınavına hazırlık, Q kodları, fonetik alfabe, band planları, mors araçları ve benzeri eğitim/referans özellikleri sunan bağımsız bir mobil uygulamadır.
 
-Uygulama temel olarak offline-first çalışacak şekilde tasarlanmıştır.
+TelsizTR resmi bir kamu kurumu uygulaması değildir. KEGM, BTK, Ulaştırma ve Altyapı Bakanlığı veya herhangi bir kamu kurumu tarafından geliştirilmiş, onaylanmış ya da desteklenmiş değildir.
 
-## 3. İşlenebilecek Veriler
+## 3. İşlenen Kişisel Veriler
 
-TelsizTR mevcut sürümünde kullanıcı hesabı, üyelik veya bulut senkronizasyonu sunmamaktadır.
+TelsizTR kullanıcı hesabı oluşturmaz ve geliştiriciye ait bir sunucuya kullanıcı profili göndermez.
 
-Uygulama içinde kullanıcı tarafından girilmesi halinde aşağıdaki veriler cihaz üzerinde yerel olarak saklanabilir:
+Uygulamada kullanılan üçüncü taraf servisler nedeniyle aşağıdaki veri türleri işlenebilir:
 
-* Çağrı işareti
-* Operatör adı
-* QSO tarihi ve saati
-* Frekans, band ve mod bilgileri
-* RST gönderilen / alınan raporları
-* QTH / lokasyon bilgisi
-* Grid locator
-* Kullanıcı notları
-* Deneme sınavı geçmişi
-* Favori röleler
+### Reklam ve analiz/teşhis kapsamında
+
+* Yaklaşık konum
+* Cihaz veya diğer kimlikler
+* Reklam kimliği
+* Uygulama etkileşimleri
+* Çökme kayıtları
+* Tanılama verileri
+
+### Satın alma kapsamında
+
+* Google Play üzerinden gerçekleştirilen “Reklamları Kaldır” satın alma işlemine ilişkin satın alma geçmişi
+* Satın alma doğrulama bilgileri
+
+### Cihazda yerel saklanabilecek veriler
+
 * Uygulama ayarları
+* Sınav ilerlemesi
+* Favoriler
+* Yerel notlar
+* Kullanıcının cihaz içinde sakladığı çağrı işareti veya benzeri tercihler
 
-Bu veriler mevcut sürümde TelsizTR geliştiricisine ait bir sunucuya otomatik olarak aktarılmaz.
+Cihazda yerel saklanan veriler geliştirici sunucusuna gönderilmez.
 
-## 4. Verilerin İşlenme Amaçları
+## 4. İşlenmeyen Veriler
 
-Uygulama içindeki veriler aşağıdaki amaçlarla kullanılabilir:
+TelsizTR geliştiricisi aşağıdaki verileri kendi sunucusunda toplamaz:
 
-* Logbook kayıtlarının tutulması
-* QSO geçmişinin görüntülenmesi
-* ADIF formatında dışa aktarım yapılması
-* Deneme sınavı geçmişinin gösterilmesi
-* Favori rölelerin saklanması
-* Uygulama içi ayarların korunması
-* Uygulama özelliklerinin offline olarak çalıştırılması
-* Teknik hata giderme ve kullanıcı destek süreçlerinin yürütülmesi
+* Ad soyad
+* E-posta adresi
+* Telefon numarası
+* Kimlik numarası
+* Açık adres
+* Rehber
+* Fotoğraf ve video
+* Ses kayıtları
+* Dosyalar
+* Mesajlar
+* Sağlık verileri
+* Özel nitelikli kişisel veriler
 
-## 5. Verilerin Aktarılması
+## 5. Kişisel Verilerin İşlenme Amaçları
 
-Mevcut sürümde logbook kayıtları, sınav geçmişi ve favori kayıtları TelsizTR geliştiricisine ait sunuculara otomatik olarak aktarılmaz.
+Kişisel veriler aşağıdaki amaçlarla işlenebilir:
 
-Ancak aşağıdaki durumlarda üçüncü taraflar devreye girebilir:
+* Uygulamanın temel fonksiyonlarını sunmak
+* Reklam göstermek
+* Reklam performansını ölçmek
+* Reklam ve gizlilik tercihlerini yönetmek
+* Uygulama içi satın alma işlemlerini gerçekleştirmek
+* Satın alma durumunu doğrulamak
+* Reklamları kaldırma özelliğini çalıştırmak
+* Uygulama performansını ve kararlılığını analiz etmek
+* Çökme ve hata kayıtlarını incelemek
+* Güvenlik, hata giderme ve kötüye kullanım önleme süreçlerini desteklemek
 
-* Reklam gösterimi için Google AdMob kullanılması
-* Kullanıcının ADIF dosyasını kendi isteğiyle başka bir uygulama veya platform üzerinden paylaşması
-* Kullanıcının cihazındaki paylaşım menüsü aracılığıyla veri aktarması
+## 6. Kişisel Verilerin İşlenmesinin Hukuki Sebepleri
 
-Google AdMob kullanılması halinde reklam hizmetlerinin sağlanması amacıyla Google tarafından bazı cihaz ve reklam verileri işlenebilir.
+Kişisel veriler, niteliğine göre aşağıdaki hukuki sebeplere dayanılarak işlenebilir:
 
-## 6. Verilerin Toplanma Yöntemi ve Hukuki Sebebi
+* Bir sözleşmenin kurulması veya ifasıyla doğrudan ilgili olması
+* Veri sorumlusunun hukuki yükümlülüğünü yerine getirmesi
+* İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla veri sorumlusunun meşru menfaati
+* Açık rıza gerektiren durumlarda kullanıcının açık rızası
+* Elektronik ticaret, tüketici mevzuatı, uygulama mağazası kuralları ve benzeri düzenlemelerden doğan yükümlülükler
 
-Veriler, kullanıcı tarafından uygulama içerisindeki formlara manuel olarak girilmesi veya uygulama özelliklerinin cihaz üzerinde kullanılması yoluyla elektronik ortamda oluşur.
+Reklam kişiselleştirme ve üçüncü taraf reklam teknolojileri, kullanıcının cihaz ayarlarına, Google hesap ayarlarına ve uygulama içinde sunulan gizlilik tercihleri/onay mekanizmalarına bağlı olarak yönetilebilir.
 
-Bu veriler aşağıdaki sebeplerle işlenebilir:
+## 7. Kişisel Verilerin Aktarılabileceği Taraflar
 
-* Kullanıcının talep ettiği uygulama özelliklerinin yerine getirilmesi
-* Bir sözleşmenin kurulması veya ifası
-* Meşru menfaat
-* Kullanıcının açık rızası gerektiren durumlarda açık rıza
+TelsizTR geliştiricisi kullanıcıların ad, soyad, e-posta, telefon, kimlik, fotoğraf veya dosya gibi verilerini kendi sunucusunda toplamaz ve üçüncü kişilere satmaz.
 
-## 7. Veri Saklama Süresi
+Ancak uygulamanın çalışması için kullanılan üçüncü taraf servisler kapsamında bazı teknik veriler aşağıdaki taraflarla işlenebilir veya aktarılabilir:
 
-Logbook kayıtları, sınav geçmişi, favoriler ve uygulama ayarları kullanıcı tarafından silinene veya uygulama cihazdan kaldırılana kadar cihaz üzerinde saklanabilir.
+* Google AdMob
+* Google Play Billing
+* Google Play Hizmetleri
+* Google tarafından sağlanan reklam, satın alma, güvenlik ve teşhis servisleri
 
-Kullanıcı uygulama içindeki kayıtları silebilir. Uygulamanın kaldırılması yerel verilerin silinmesine neden olabilir.
+Bu aktarım; reklam gösterimi, reklam ölçümü, satın alma doğrulama, hata analizi, güvenlik ve uygulama performansı amaçlarıyla sınırlıdır.
 
-## 8. 13 Yaş Altı Kullanıcılar
+## 8. Kişisel Verilerin Toplama Yöntemi
 
-TelsizTR özellikle 13 yaş altı çocuklara yönelik olarak tasarlanmamıştır.
+Kişisel veriler şu yöntemlerle elde edilebilir:
 
-TelsizTR, 13 yaş altı çocuklardan bilerek kişisel veri toplamayı amaçlamaz.
+* Kullanıcının uygulamayı kullanması
+* Uygulama içi satın alma işlemi başlatması
+* Reklam gösterimi ve reklam etkileşimleri
+* Uygulamanın cihaz üzerinde çalışması sırasında oluşan teknik kayıtlar
+* Google Play ve Google AdMob gibi üçüncü taraf SDK ve servisleri
 
-13 yaş altındaki kullanıcıların uygulamayı ebeveyn veya yasal vasi gözetiminde kullanması önerilir.
+TelsizTR, kullanıcıdan doğrudan hesap oluşturma veya kimlik doğrulama bilgisi talep etmez.
 
-13 yaş altındaki kullanıcıların logbook, QTH, grid locator, operatör adı veya not alanlarına kişisel veri girmemesi gerekir.
+## 9. Yurt Dışına Aktarım
 
-Bir ebeveyn veya yasal vasi, çocuğa ait kişisel verinin uygulamada yer aldığını düşünüyorsa [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com) adresi üzerinden iletişime geçebilir.
+TelsizTR’de kullanılan Google AdMob, Google Play Billing ve Google Play Hizmetleri gibi servisler global altyapılar üzerinden çalışabilir.
 
-## 9. İlgili Kişinin Hakları
+Bu nedenle reklam, satın alma, cihaz kimliği, tanılama, yaklaşık konum ve benzeri teknik veriler, ilgili hizmetlerin altyapısı gereği yurt dışındaki sunucularda işlenebilir.
 
-KVKK kapsamında kullanıcılar aşağıdaki haklara sahiptir:
+Bu süreçler ilgili üçüncü taraf hizmet sağlayıcıların kendi gizlilik politikaları, hizmet şartları ve veri işleme uygulamalarına tabidir.
+
+## 10. Saklama Süresi
+
+TelsizTR geliştiricisi, kullanıcı hesabı veya kullanıcı profili tutmadığı için geliştirici sunucusunda saklanan hesap verisi bulunmaz.
+
+Cihazda yerel olarak saklanan veriler kullanıcı tarafından silinene, uygulama verileri temizlenene veya uygulama kaldırılana kadar cihazda kalabilir.
+
+Google AdMob ve Google Play Billing tarafından işlenen veriler, ilgili servislerin kendi saklama süreleri ve politikalarına göre saklanır.
+
+## 11. 18 Yaş Altı Kullanıcılar
+
+TelsizTR genel kullanıcı kitlesine yönelik bir eğitim ve referans uygulamasıdır.
+
+Uygulama çocuklardan bilerek ad, soyad, e-posta, telefon, kimlik bilgisi veya benzeri kişisel bilgiler toplamaz.
+
+18 yaşın altındaki kullanıcıların uygulamayı veli veya yasal temsilci bilgisi ve rehberliğiyle kullanması önerilir.
+
+## 12. İlgili Kişinin Hakları
+
+KVKK kapsamında ilgili kişiler, veri sorumlusuna başvurarak aşağıdaki haklarını kullanabilir:
 
 * Kişisel verilerinin işlenip işlenmediğini öğrenme
 * Kişisel verileri işlenmişse buna ilişkin bilgi talep etme
-* Kişisel verilerin işlenme amacını ve amaca uygun kullanılıp kullanılmadığını öğrenme
-* Kişisel verilerin yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme
+* Kişisel verilerin işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme
+* Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme
 * Eksik veya yanlış işlenen kişisel verilerin düzeltilmesini isteme
-* Kanuni şartlar oluşmuşsa kişisel verilerin silinmesini veya yok edilmesini isteme
-* Düzeltme, silme veya yok etme işlemlerinin üçüncü kişilere bildirilmesini isteme
-* Otomatik sistemler yoluyla analiz sonucunda kişinin aleyhine bir sonucun ortaya çıkmasına itiraz etme
-* Kanuna aykırı işleme sebebiyle zarara uğraması halinde zararın giderilmesini talep etme
+* Kanunda öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme
+* Düzeltme, silme veya yok etme işlemlerinin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme
+* İşlenen verilerin münhasıran otomatik sistemler yoluyla analiz edilmesi suretiyle kişinin aleyhine bir sonucun ortaya çıkmasına itiraz etme
+* Kişisel verilerin kanuna aykırı işlenmesi sebebiyle zarara uğraması halinde zararın giderilmesini talep etme
 
-Bu haklara ilişkin taleplerinizi [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com) adresine iletebilirsiniz.
+## 13. Başvuru ve İletişim
 
-## 10. Üçüncü Taraf Kaynaklar
+KVKK kapsamındaki talepleriniz için aşağıdaki iletişim adresinden bizimle iletişime geçebilirsiniz:
 
-TelsizTR içinde yer alan röle, band planı, sınav soruları, Q kodları ve benzeri bilgiler çeşitli kamuya açık kaynaklardan, amatör telsizcilik kaynaklarından veya ilgili dokümanlardan derlenmiş olabilir.
+**E-posta:** [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
 
-Bu bilgiler bilgilendirme amacıyla sunulur. Güncel ve resmi bilgi için ilgili kaynaklar kontrol edilmelidir.
+Başvurularda talebin açık ve anlaşılır şekilde belirtilmesi, başvuru sahibinin kimliğinin doğrulanmasına yardımcı olacak yeterli bilginin sunulması gerekebilir.
 
-## 11. Güncellemeler
+## 14. Güncellemeler
 
-TelsizTR uygulamasına yeni özellikler eklendikçe bu Aydınlatma Metni güncellenebilir.
+Bu Aydınlatma Metni, uygulamadaki özellikler, kullanılan servisler veya mevzuattaki değişiklikler doğrultusunda güncellenebilir.
 
-Google Login, bulut senkronizasyonu, premium üyelik, analiz veya farklı üçüncü taraf hizmetler eklenirse bu metin yeniden düzenlenecektir.
-
-## 12. İletişim
-
-KVKK kapsamındaki talepleriniz ve diğer sorularınız için:
-
-E-posta: [avelixlabs@gmail.com](mailto:avelixlabs@gmail.com)
-
+Güncel metin uygulama içinde veya TelsizTR’nin yasal bilgilendirme sayfalarında yayımlanır.
